@@ -15,12 +15,14 @@ The purpose of the tool was to extract source code examples from StackOverflow D
 #### Running It:
 
 Go to the project location in terminal, and run:
+
 **node main.js** *{command}*
 
 where command is one of the following:
-*runFromScratch*
-*extractFeaturesFromExamples*
-*formatDataForR*
+
+- *runFromScratch*
+- *extractFeaturesFromExamples*
+- *formatDataForR*
 
 
 If you run the *runFromScratch command*, it will crawl the website, collect all url’s, extract all examples from the data source, and extract features from the examples. this will create 2 files, one containing just the example source code, the other one is with extracted features. After that you can run the *formatDataForR* command to generate a csv file to be used in the R script.
